@@ -55,15 +55,15 @@
         </div>
     </div>
 
-    <!-- Patents -->    
-    <div class="container" class="patents">
+    <!-- Patents --> 
+    <div class="container patents">
         <h2>Patents</h2>
         <div >
             <div ng-controller="PatentsController">
                 <div ng-repeat="patent in patents">
                     <div class="page-header">
                         <h3>{{patent.title}}</h3>
-                    </div>    
+                    </div>  
                     <div class="row">
                         <div class="col-md-5">
                             <div class="thumbnail">
@@ -72,6 +72,7 @@
                         </div>
                         <div class="col-md-7">                
                             <h4><a href="{{patent.link}}">{{patent.id}}</a></h4>
+                            <p>Filed: {{patent.dateFiled}}  Published: {{patent.datePublished}}</p>
                             <h3>Abstract</h3>
                             <p>
                             {{patent.abstract}}
