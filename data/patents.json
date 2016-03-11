@@ -1,5 +1,3 @@
-
-
 [
     {
         "id": "US09021035", 
@@ -18,8 +16,7 @@
         "datePublished": "Jul 28, 2005",
         "abstract": "A system and method is provided for optimizing a SyncML slow sync between a proprietary client and server. When a slow sync is detected, the client and server can depart from the normal SyncML protocol and process summary data without having to compare all items on a field-by-field basis.",        
         "image": "images/US20050165947A1-20050728-D00000.png"
-    },
-    
+    },    
     {
         "id": "US20060074996",
         "title": "System and method for synchronizing data",
@@ -29,7 +26,6 @@
         "abstract": "A system and method for generating a synchronizing data set are described. The method includes receiving a synchronization command by a SyncML complaint device, accessing a data set associated with the SyncML complaint device, filtering the data set in a source adapter to generate a synchronization data set and communicating the synchronization data set to a SyncML compliant synchronization engine.",
         "image": "images/US20060074996A1-20060406-D00002.png"
     },
-
     {
         "id": "US20060106879",
         "title": "Conflict resolution in a synchronization framework",
@@ -38,8 +34,7 @@
         "datePublished": "May 18, 2006",
         "abstract": "A method, system and apparatus for detecting and resolving conflict resolution in a synchronization framework. In this regard, a synchronization framework which has been configured in accordance with the present invention can include a synchronization engine configured for coupling to an application utilizing a data set subject to synchronization with another application. The framework further can include a synchronization adapter communicatively linked to the synchronization engine. Finally, the framework can include conflict detection and resolution logic disposed within the synchronization framework and configured for communication with one of the synchronization engine and the synchronization adapter.",
         "image": "images/US20060106879A1-20060518-D00001.png"
-    },
-    
+    },    
     {
         "id": "US20050259693",
         "title": "Method, system and program product for synchronizing data elements between devices ",
@@ -49,5 +44,4 @@
         "abstract": "When a current synchronization between a first device and a second device is commenced, a last anchor for the current synchronization to an initialization time of a previous synchronization between the first device and the second device, and a next anchor for the current synchronization is set to an initialization time of the current synchronization. Then, a set of data elements to be synchronized during the current synchronization is determined. Typically, the set includes only those data elements that have been modified after the last anchor and up to (e.g., before or equal to) the next anchor. When the set of modified data elements is received on the second device from the first device, a device modified timestamp (DMT) for the set of data elements on the second device is set to the next anchor instead of to the current time at which the data elements are received.",
         "image": "images/US20050259693A1-20051124-D00002.png"
     }
-
 ]
