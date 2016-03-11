@@ -1,10 +1,130 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
+
 <head>
-<title>Under Construction</title>
-<!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hello! My name is Stephen Auriemma. I am a Software Engineer. This is my personal site.">
+    <meta name="author" content="Stephen Auriemma">
+    <!-- <link rel="shortcut icon" href="dist/images/favicon.ico"> -->
+
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+
+    <title>Stephen Auriemma</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" 
+        integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>    
+
+    <link rel="stylesheet" href="main.css">
+    
+    <script>
+        var app = angular.module('app', []);    
+
+        function PatentsController($http, $scope) {
+            var source = 'data/patents.json';
+            $http.get('data/patents.json').success(function(response) {
+                console.log("Get Data " + source);
+                $scope.patents = response;
+            });
+        }
+        
+        app.controller("PatentsController", PatentsController)
+    </script> 
+
 </head>
-<bodyd>
-<p>This page is under construction. Please come back soon!</p>
+
+<body ng-app="app">
+    
+    <div class="nav">
+        <div class="container">
+    <!--
+            <ul class="pull-left">
+                <li><a href="#">Name</a></li>
+                <li><a href="#">Browse</a></li>
+            </ul>
+            <ul class="pull-right">
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Log In</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+    -->
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Stephen Auriemma</h1>
+            <p>Software Engineer</p>
+        </div>
+    </div>
+
+<!--<div class="neighborhood-guides">
+    <div class="container">
+        <h2>Patents</h2>
+        <p>Not sure where to stay? We've created neighborhood guides for cities all around the world.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="images/US09021035-20150428-D00000.gif" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="http://goo.gl/Av1pac" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="http://goo.gl/0Kd7UO" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>-->
+
+    <!-- Patents -->    
+    <div class="container" class="patents">
+        <h2>Patents</h2>
+        <div >
+            <div ng-controller="PatentsController">
+                <div ng-repeat="patent in patents">
+                    <div class="page-header">
+                        <h3>{{patent.title}}</h3>
+                    </div>    
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="thumbnail">
+                                <img ng-src="{{patent.image}}"/>
+                            </div>
+                        </div>
+                        <div class="col-md-7">                
+                            <h4><a href="{{patent.link}}">{{patent.id}}</a></h4>
+                            <h3>Abstract</h3>
+                            <p>
+                            {{patent.abstract}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
+
