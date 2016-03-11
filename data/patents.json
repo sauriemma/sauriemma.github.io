@@ -3,8 +3,8 @@
         "id": "US09021035", 
         "title": "Formatting rich text data into a JSON array",
         "link": "http://www.uspto.gov/web/patents/patog/week17/OG/html/1413-4/US09021035-20150428.html",
-        "dateFiled": "Dec 29, 2003",
-        "datePublished": "Jul 28, 2005",
+        "dateFiled": "Aug. 21, 2012",
+        "datePublished": "April 28, 2015",
         "abstract": "Formatting rich text data into a JSON array. A parent JSON object can be created within the JSON array. Header information defined as a field of the rich text data can be identified and represented in a root property of the parent JSON object. A plurality of parts of the rich text data can be identified. For each of the plurality of parts of the rich text data, content of the part can be identified. A first respective child JSON object can be inserted into the parent JSON object. The content of the part can be represented in a content property of the respective child JSON object. Header information of the part can be identified and represented in a header property of the respective first child JSON object. The JSON array can be output as a JSON file.",        
         "image": "images/US09021035-20150428-D00000.gif"
     },
