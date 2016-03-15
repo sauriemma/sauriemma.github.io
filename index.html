@@ -32,16 +32,27 @@
     
     <script>
         var app = angular.module('app', []);    
+        
+        function ExperienceController($http, $scope) {
+            var source = 'data/experience.json';
+            $http.get(source).success(function(response) {
+                console.log("Get Data " + source);
+                $scope.sections = response;
+            });
+        }
+        
+        app.controller("ExperienceController", ExperienceController);
 
         function PatentsController($http, $scope) {
             var source = 'data/patents.json';
-            $http.get('data/patents.json').success(function(response) {
+            $http.get(source).success(function(response) {
                 console.log("Get Data " + source);
                 $scope.patents = response;
             });
         }
         
-        app.controller("PatentsController", PatentsController)
+        app.controller("PatentsController", PatentsController);
+                
     </script> 
 
 </head>
@@ -52,6 +63,17 @@
         <div class="container">
             <h1>Stephen Auriemma</h1>
             <p>Software Engineer</p>
+        </div>
+    </div>    
+    
+    <div class="container section"  ng-controller="ExperienceController">
+        <div ng-repeat="section in sections">
+            <h3>{{section.title}}</h3>
+            <h4><a href="{{section.link}}">{{section.product}}</a></h4>
+            <p>{{section.dateRange}}</p>
+            <ul ng-repeat="item in section.items">
+                <li>{{item}}</li>
+            </ul>
         </div>
     </div>
 

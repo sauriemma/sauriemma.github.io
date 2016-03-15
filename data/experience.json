@@ -1,0 +1,112 @@
+
+[
+    {
+        "title": "Experience",
+        "items": [
+            "20 years of commercial software development experience.",
+            "10 years of Java experience including RESTful interfaces and Web Services (Servlet, JSP, AJAX, JAX-RS, JAXB, JSON).",
+            "5 years of experience with Web 2.0 technologies MVC frameworks (Spring, Struts).",
+            "3 years of experience with JavaScript using frameworks (AngularJS, Dojo, GridX).",
+            "Experience with JavaScript using frameworks (Mongo, Express, Node.js, JQuery, Bootstrap).",
+            "Experience with Eclipse, Git, Perforce and RTC ClearCase.",
+            "Master Degree from Boston University in Software Engineering.",
+            "Presented at several technical conferences.",
+            "Authored  several articles and contributed to a few books.",
+            "Awarded several patterns."
+
+        ]  
+    },
+    {
+        "title": "Web Application Developer",
+        "product": "DataPower",
+        "link": "http://www-03.ibm.com/software/products/en/datapower-gateway",
+        "dateRange": "08/14 – Present",
+        "items": [
+            "Development and support for DataPower administrative Web (UI) user interfaces. IBM DataPower Gateway is a purpose-built security and integration platform for mobile, cloud, application programming interface (API).",            
+            "Development of a new administrative Web UI from an existing product API Manager written with Mongo, AngularJS, Express, Node.js, JQuery, Bootstrap and managed with a Git repository.",
+            "Development and support for existing DataPower administrative Web (UI) user interface.",
+            "Developed new functionality and support to existing administrative Web UIs written with Dojo and XML/XSL."
+        ]  
+    },
+    {
+        "title": "Web Application Developer",
+        "product": "OpenPages",
+        "link": "http://www-03.ibm.com/software/products/en/openpages-grc-platform",
+        "dateRange": "02/12 – 08/14",
+        "items": [
+            "Developed new functionality in OpenPages, an enterprise-scale multi-platform commercial J2EE application implemented with WebLogic/Oracle and WebSphere /DB2.",            
+            "Use agile development methods to contribute to the overall design and implementation of a new OpenPages user interface based on DOJO JavaScript components and new backend based on Java AJAX JSON REST services. ",
+            "Responsibilities include driving the design and development of features in upcoming releases, as well as troubleshooting, debugging, and solving problems in existing releases."
+        ]  
+    },
+    {
+        "title": "Software Engineer Java",
+        "product": "Notes Domino",
+        "link": "http://www-03.ibm.com/software/products/en/ibmnotes",
+        "dateRange": "09/10 – 02/12",
+        "items": [
+            "Use agile development methods to contribute to the overall design and implementation of the Domino REST API.",            
+            "Presented at IBM technical conference called Lotusphere in 2012 Session on Domino REST API called Domino Access Services (DAS).",
+            "Submitted patent CAM8-2011-0323: A method of representing MIME multipart message as JSON.",
+            "Authored a Chapter on REST Services in the publication 'Domino REST Services Extension Library'."
+        ]  
+    },
+    {
+        "title": "Software Engineer Java",
+        "product": "Alloy™ by IBM and SAP",
+        "link": "http://www-01.ibm.com/software/in/lotus/products/alloy/",
+        "dateRange": "01/08 – 09/10",
+        "items": [
+            "Developer (Java) for a Notes 8.0 collaborative software product from IBM and SAP known as Alloy.",            
+            "Designed and implemented Leave Employee and Leave Management scenario for Alloy.",
+            "Designed and implemented SSO (Single Sign-On) between Domino and SAP solution based on SAML.",
+            "Designed and implemented a Data Consistency framework for Alloy."
+        ]  
+    },
+    {
+        "title": "Software Engineer C++ Java",
+        "product": "Notes Domino",
+        "link": "http://www-03.ibm.com/software/products/en/ibmnotes",
+        "dateRange": "01/04 – 01/08",
+        "items": [
+            "Developer (C++ Java) for Notes 8.0 feature called Composite Applications using Eclipse and Expeditor.",            
+            "Presented at IBM technical conference called Lotusphere in 2007 and 2008.",
+            "Implemented an extensible synchronization solution based on the SyncML framework and J2EE technology.",
+            "Received the Invention Achievement Award for my contribution to several synchronization patents.",
+            "Authored two articles on Composite Application for a popular trade magazine called 'The View'."
+        ]  
+    },
+    {
+        "title": "Software Engineer C++ Java",
+        "product": "Notes Domino",
+        "link": "http://www-03.ibm.com/software/products/en/ibmnotes",
+        "dateRange": "03/02 – 01/04",
+        "items": [
+            "Software Engineer for the Domino Offline Services project, responsible for the development of new features and architecture enhancements for Domino specifically iNotes Access for Outlook.",            
+            "Add offline support for JSP applications by integrating the Jakarta Tomcat Servlet engine into Domino Offline Services  and adding custom JSP tags to existing JSP applications."
+        ]  
+    },
+    {
+        "title": "Software Engineer C++",
+        "product": "IBM Research - Apache Xalan",
+        "link": "https://xml.apache.org/xalan-c/",
+        "dateRange": "02/00 – 03/02",
+        "items": [
+            "Software Engineer for the Apache XML open source project Apache Xalan developing an XSLT processor for transforming XML documents into HTML, text, or other XML document types.",            
+            "Developed Xalan (formally known as LotusXSLT) using C++ and Java in a multiple-platform environment based on W3 specifications.",
+            "Designed and implemented a new transformer interface and an XSLT Apache Module. "
+        ]  
+    },
+    {
+        "title": "Software Engineer C C++ Visual Basic LotusScript Java",
+        "product": "Notes API",
+        "link": "https://www.ibm.com/developerworks/lotus/documentation/capi/",
+        "dateRange": "03/96 – 02/00",
+        "items": [
+            "As a member of the Notes Programmability team my primary function was developing Notes Development Toolkits (API’s) using C, C++, VB/LS and Java in a multiple-platform environment. ",            
+            "Experienced with Windows API, MFC, VB, Notes database design, Notes Mail, Lotus Script, SQL, Notes Pump API, Organizer API, ADK123 Toolkit, SmartSuite, MAPI, VIM, ActiveX, and LSX C++ Toolkit.",
+            "Authored articles for a trade publication, white papers and IBM Redbooks. I created and gave technical presentations on COM at the World Trade Center, VBits and Lotusphere.",
+            "Provide phone support for Notes Development Toolkits."
+        ]  
+    }
+]
